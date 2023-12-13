@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 4rem
+}
+
+#count-tool-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem
+}
+
+.button {
+  background-color: gray;
+  color: white;
+  width: 6rem;
+  height: 6rem;
+  font-size: 4rem;
+  text-align: center
+}
+
+.button:hover {
+  background-color: white;
+  color: gray;
+}
+
+#number-input {
+  font-size: 5rem;
+  text-align: center;
+  border: 5px solid black;
+  width: 20rem
+}
+
+#reset-btn {
+  margin-top: 2rem;
+  width: 20rem;
+  background-color: blue
+}
+
+#reset-btn:hover {
+  background-color: white;
+  color: blue
+}
+
