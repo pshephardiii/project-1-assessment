@@ -4,7 +4,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-size: 4rem
+  font-size: 4rem;
+  background-size: cover;
+  background-color: aliceblue
 }
 
 #count-tool-container {
